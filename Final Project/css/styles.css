@@ -1,0 +1,98 @@
+/*style for all the body sections*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*style for all main the sections*/
+main{
+    margin: 20;
+}
+
+/*style for all paragraphs*/
+p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*style for all headers 1*/
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/*style for the header unordered list*/
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+/*style for all elements on the list*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/*style for all the links*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*style for intro*/
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+/*style for the intro image*/
+.hero img {
+    width: 1000px;
+    max-height: 1300px;
+    flex-shrink: 3;
+}
+
+/*style for the class "about"*/
+.about {
+    width: 1000px;
+    max-height: 1300px;
+    flex-shrink: 3;
+    text-align: start;
+}
+
+/*style for the class "about2"*/
+.about2 {
+    width: 1000px;
+    max-height: 1300px;
+    flex-shrink: 3;
+    text-align: center;
+}
+
+/*style for the class "about3"*/
+.about3{
+    width: 1000px;
+    max-height: 1300px;
+    flex-shrink: 3;
+    text-align: end;
+}
+
+/*style for all the buttons*/
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*style for all the buttons when hovered*/
+button:hover {
+    background-color: grey;
+}
